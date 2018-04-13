@@ -32,6 +32,7 @@ BOARD_USES_MMCUTILS := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 TW_EXCLUDE_SUPERSU := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_THEME := landscape_hdpi
 include $(LOCAL_PATH)/kernel.mk
 include device/generic/twrpbuilder/BoardConfig64.mk
 
